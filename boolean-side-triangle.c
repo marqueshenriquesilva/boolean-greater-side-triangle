@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
+#include <stdbool.h>
 
-main() {
+int main() {
 	printf("Welcome! This program calculates the greater side of a triangle.\n");
 	
 	char run = 'y';
@@ -30,4 +31,5 @@ main() {
 		printf("Do you wish to continue? (y/n)\n");
 		run = getche();
 	}
+	return 0;
 }
